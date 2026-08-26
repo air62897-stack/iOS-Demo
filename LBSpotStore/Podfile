@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LBSpotStore' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LBSpotStore
+  pod 'LBAppBaseFramework',:git => 'http://git.lbk.world/app/ios-architecture/lbappbaseframework.git',:tag => '0.0.1-dev-eventtracker'
+
+end

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B8ADD62C9D041C00E8B218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8ADD52C9D041C00E8B218 /* AppDelegate.swift */; };
+		49B8ADD82C9D041C00E8B218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8ADD72C9D041C00E8B218 /* SceneDelegate.swift */; };
+		49B8ADDA2C9D041C00E8B218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8ADD92C9D041C00E8B218 /* ViewController.swift */; };
+		49B8ADDD2C9D041C00E8B218 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49B8ADDC2C9D041C00E8B218 /* Base */; };
+		49B8ADDF2C9D041F00E8B218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B8ADDE2C9D041F00E8B218 /* Assets.xcassets */; };
+		49B8ADE22C9D041F00E8B218 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49B8ADE12C9D041F00E8B218 /* Base */; };
+		49B8ADEA2C9D084E00E8B218 /* LBSpotACStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8ADE92C9D084E00E8B218 /* LBSpotACStore.swift */; };
+		49B8ADEC2C9D090900E8B218 /* LBSpotDBACItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8ADEB2C9D090900E8B218 /* LBSpotDBACItem.swift */; };
+		49B8ADEE2C9D0EB000E8B218 /* spot_baseConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 49B8ADED2C9D0EB000E8B218 /* spot_baseConfig.json */; };
+		49D2A1522C9D9B8E00F44CF0 /* LBSpotDBSCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A1502C9D9B8E00F44CF0 /* LBSpotDBSCItem.swift */; };
+		49D2A1532C9D9B8E00F44CF0 /* LBSpotSCStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A1512C9D9B8E00F44CF0 /* LBSpotSCStore.swift */; };
+		CF5ACC86161C6DD73511412A /* Pods_LBSpotStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB47707E2EEC7CB853A48C45 /* Pods_LBSpotStore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174F717670413E37BC3F832D /* Pods-LBSpotStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSpotStore.debug.xcconfig"; path = "Target Support Files/Pods-LBSpotStore/Pods-LBSpotStore.debug.xcconfig"; sourceTree = "<group>"; };
+		49B8ADD22C9D041C00E8B218 /* LBSpotStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBSpotStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B8ADD52C9D041C00E8B218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49B8ADD72C9D041C00E8B218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49B8ADD92C9D041C00E8B218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49B8ADDC2C9D041C00E8B218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B8ADDE2C9D041F00E8B218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B8ADE12C9D041F00E8B218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B8ADE32C9D042000E8B218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B8ADE92C9D084E00E8B218 /* LBSpotACStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBSpotACStore.swift; sourceTree = "<group>"; };
+		49B8ADEB2C9D090900E8B218 /* LBSpotDBACItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBSpotDBACItem.swift; sourceTree = "<group>"; };
+		49B8ADED2C9D0EB000E8B218 /* spot_baseConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spot_baseConfig.json; sourceTree = "<group>"; };
+		49D2A1502C9D9B8E00F44CF0 /* LBSpotDBSCItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBSpotDBSCItem.swift; sourceTree = "<group>"; };
+		49D2A1512C9D9B8E00F44CF0 /* LBSpotSCStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBSpotSCStore.swift; sourceTree = "<group>"; };
+		DB47707E2EEC7CB853A48C45 /* Pods_LBSpotStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBSpotStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB9CC505E073EC9D7825F3B /* Pods-LBSpotStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSpotStore.release.xcconfig"; path = "Target Support Files/Pods-LBSpotStore/Pods-LBSpotStore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B8ADCF2C9D041C00E8B218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5ACC86161C6DD73511412A /* Pods_LBSpotStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074925E71C1F485369CB271F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB47707E2EEC7CB853A48C45 /* Pods_LBSpotStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B8ADC92C9D041C00E8B218 = {
+			isa = PBXGroup;
+			children = (
+				49B8ADD42C9D041C00E8B218 /* LBSpotStore */,
+				49B8ADD32C9D041C00E8B218 /* Products */,
+				AE392868731D20BB4EE231A5 /* Pods */,
+				074925E71C1F485369CB271F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49B8ADD32C9D041C00E8B218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B8ADD22C9D041C00E8B218 /* LBSpotStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B8ADD42C9D041C00E8B218 /* LBSpotStore */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A1502C9D9B8E00F44CF0 /* LBSpotDBSCItem.swift */,
+				49D2A1512C9D9B8E00F44CF0 /* LBSpotSCStore.swift */,
+				49B8ADED2C9D0EB000E8B218 /* spot_baseConfig.json */,
+				49B8ADD52C9D041C00E8B218 /* AppDelegate.swift */,
+				49B8ADD72C9D041C00E8B218 /* SceneDelegate.swift */,
+				49B8ADD92C9D041C00E8B218 /* ViewController.swift */,
+				49B8ADDB2C9D041C00E8B218 /* Main.storyboard */,
+				49B8ADDE2C9D041F00E8B218 /* Assets.xcassets */,
+				49B8ADE02C9D041F00E8B218 /* LaunchScreen.storyboard */,
+				49B8ADE32C9D042000E8B218 /* Info.plist */,
+				49B8ADE92C9D084E00E8B218 /* LBSpotACStore.swift */,
+				49B8ADEB2C9D090900E8B218 /* LBSpotDBACItem.swift */,
+			);
+			path = LBSpotStore;
+			sourceTree = "<group>";
+		};
+		AE392868731D20BB4EE231A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				174F717670413E37BC3F832D /* Pods-LBSpotStore.debug.xcconfig */,
+				EBB9CC505E073EC9D7825F3B /* Pods-LBSpotStore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B8ADD12C9D041C00E8B218 /* LBSpotStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B8ADE62C9D042000E8B218 /* Build configuration list for PBXNativeTarget "LBSpotStore" */;
+			buildPhases = (
+				0B96F6BBBF00D6752110E01C /* [CP] Check Pods Manifest.lock */,
+				49B8ADCE2C9D041C00E8B218 /* Sources */,
+				49B8ADCF2C9D041C00E8B218 /* Frameworks */,
+				49B8ADD02C9D041C00E8B218 /* Resources */,
+				63B8D7241B028C9992DA4CF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBSpotStore;
+			productName = LBSpotStore;
+			productReference = 49B8ADD22C9D041C00E8B218 /* LBSpotStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B8ADCA2C9D041C00E8B218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					49B8ADD12C9D041C00E8B218 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 49B8ADCD2C9D041C00E8B218 /* Build configuration list for PBXProject "LBSpotStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B8ADC92C9D041C00E8B218;
+			productRefGroup = 49B8ADD32C9D041C00E8B218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B8ADD12C9D041C00E8B218 /* LBSpotStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B8ADD02C9D041C00E8B218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B8ADDF2C9D041F00E8B218 /* Assets.xcassets in Resources */,
+				49B8ADE22C9D041F00E8B218 /* Base in Resources */,
+				49B8ADEE2C9D0EB000E8B218 /* spot_baseConfig.json in Resources */,
+				49B8ADDD2C9D041C00E8B218 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B96F6BBBF00D6752110E01C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBSpotStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B8D7241B028C9992DA4CF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBSpotStore/Pods-LBSpotStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBSpotStore/Pods-LBSpotStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBSpotStore/Pods-LBSpotStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B8ADCE2C9D041C00E8B218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D2A1522C9D9B8E00F44CF0 /* LBSpotDBSCItem.swift in Sources */,
+				49B8ADDA2C9D041C00E8B218 /* ViewController.swift in Sources */,
+				49D2A1532C9D9B8E00F44CF0 /* LBSpotSCStore.swift in Sources */,
+				49B8ADEA2C9D084E00E8B218 /* LBSpotACStore.swift in Sources */,
+				49B8ADD62C9D041C00E8B218 /* AppDelegate.swift in Sources */,
+				49B8ADD82C9D041C00E8B218 /* SceneDelegate.swift in Sources */,
+				49B8ADEC2C9D090900E8B218 /* LBSpotDBACItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49B8ADDB2C9D041C00E8B218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B8ADDC2C9D041C00E8B218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49B8ADE02C9D041F00E8B218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B8ADE12C9D041F00E8B218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B8ADE42C9D042000E8B218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49B8ADE52C9D042000E8B218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B8ADE72C9D042000E8B218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174F717670413E37BC3F832D /* Pods-LBSpotStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7X4U3U235;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LBSpotStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.LBSpotStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B8ADE82C9D042000E8B218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB9CC505E073EC9D7825F3B /* Pods-LBSpotStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7X4U3U235;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LBSpotStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.LBSpotStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B8ADCD2C9D041C00E8B218 /* Build configuration list for PBXProject "LBSpotStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B8ADE42C9D042000E8B218 /* Debug */,
+				49B8ADE52C9D042000E8B218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B8ADE62C9D042000E8B218 /* Build configuration list for PBXNativeTarget "LBSpotStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B8ADE72C9D042000E8B218 /* Debug */,
+				49B8ADE82C9D042000E8B218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B8ADCA2C9D041C00E8B218 /* Project object */;
+}

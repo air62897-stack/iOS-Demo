@@ -1,0 +1,31 @@
+PODS:
+  - GRDB.swift (6.24.1):
+    - GRDB.swift/standard (= 6.24.1)
+  - GRDB.swift/standard (6.24.1)
+  - LBAppBaseFramework (0.0.1-dev-eventtracker):
+    - GRDB.swift (= 6.24.1)
+
+DEPENDENCIES:
+  - LBAppBaseFramework (from `http://git.lbk.world/app/ios-architecture/lbappbaseframework.git`, tag `0.0.1-dev-eventtracker`)
+
+SPEC REPOS:
+  trunk:
+    - GRDB.swift
+
+EXTERNAL SOURCES:
+  LBAppBaseFramework:
+    :git: http://git.lbk.world/app/ios-architecture/lbappbaseframework.git
+    :tag: 0.0.1-dev-eventtracker
+
+CHECKOUT OPTIONS:
+  LBAppBaseFramework:
+    :git: http://git.lbk.world/app/ios-architecture/lbappbaseframework.git
+    :tag: 0.0.1-dev-eventtracker
+
+SPEC CHECKSUMS:
+  GRDB.swift: 136dcb5d8dddca50aae3ba7d77475f79e7232cd8
+  LBAppBaseFramework: 97e1309eaf441b9fb22da108cab5eb5947ca6281
+
+PODFILE CHECKSUM: cf255ad095d7543e7278024cd979eae641094d16
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,20 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name LBAppBaseFramework
+import Foundation
+@_exported import LBAppBaseFramework
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc open class AClass : ObjectiveC.NSObject {
+  @objc public func testAClass(_ string: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class LBNSTimer : ObjectiveC.NSObject {
+  @objc public func start()
+  @objc public func stop()
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,29 @@
+{
+  "name": "LBAppBaseFramework",
+  "version": "0.0.1-dev-eventtracker",
+  "summary": "A short description of LBAppBaseFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://git.lbk.world/app/ios-architecture/lbappbaseframework.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ksnowlv": "air.lv@lbk.one"
+  },
+  "source": {
+    "git": "http://git.lbk.world/app/ios-architecture/lbappbaseframework.git",
+    "tag": "0.0.1-dev-eventtracker"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "LBAppBaseFramework/Classes/**/*.{swift}",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "GRDB.swift": [
+      "6.24.1"
+    ]
+  },
+  "swift_version": "5.0"
+}

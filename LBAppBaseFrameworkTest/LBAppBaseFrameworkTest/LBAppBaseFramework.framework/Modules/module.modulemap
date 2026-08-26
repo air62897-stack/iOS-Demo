@@ -1,0 +1,6 @@
+framework module LBAppBaseFramework {
+  umbrella header "LBAppBaseFramework.h"
+  export *
+
+  module * { export * }
+}

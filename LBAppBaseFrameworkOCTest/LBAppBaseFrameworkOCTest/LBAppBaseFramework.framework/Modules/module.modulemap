@@ -1,0 +1,11 @@
+framework module LBAppBaseFramework {
+  umbrella header "LBAppBaseFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module LBAppBaseFramework.Swift {
+  header "LBAppBaseFramework-Swift.h"
+  requires objc
+}
